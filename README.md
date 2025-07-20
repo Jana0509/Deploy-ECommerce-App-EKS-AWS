@@ -57,3 +57,8 @@ This Project is designed in 3-tier architecture which consistes of Presentation 
 4. Deploy the Helm Chart in EKS
 5. Created the Ingress resource and Ingress ALB
 6. Create and configure IAM OIDC provider for creating the communication between the pods and AWS Resources[Create Integration between k8 service and AWS IAM roles]
+
+
+## Conclusion:
+
+In conclusion, this project highlights the successful implementation of a Microservice application hosted on an AWS EKS Cluster, following cloud-native principles. By leveraging AWS's robust services and integrating best practices, the architecture delivers high scalability, resilience, and security while remaining cost-efficient. This hands-on experience reinforces the practical knowledge of designing, deploying, and managing cloud-based applications, making it a significant step forward in mastering modern application hosting solutions.
