@@ -1,8 +1,21 @@
-# Host-E-Commerice- Application-EKS-AWS
+# Host-E-Commerce- Application-EKS-AWS
 Build and Deploy Highly Available, Scalable and Resilient 3-tier microservices solution in Elastic Kubernetes Service
 
 ### Introduction:
-This Project demonstrates deploying Highly Available, Scalable and Resilient Application in AWS EKS Cluster. This Application consists of 9 Microservices such as User Service(Registration, Login), Shipping Service, Rating Service, Catalogue Service, Cart, Dispatch and Payment Service. All the Microservices are written in different Programming languages such as python, Java, Go, Php.
+This Project demonstrates deploying Highly Available, Scalable and Resilient Application in AWS EKS Cluster. This Application consists of 9 Microservices such as User Service(Registration, Login), Shipping Service, Rating Service, Catalogue Service, Cart, Dispatch and Payment Service. All the Microservices are written in different Programming languages such as 
+
+NodeJS (Express)
+Java (Spring Boot)
+Python (Flask)
+Golang
+PHP (Apache)
+MongoDB
+Redis
+MySQL (Maxmind data)
+RabbitMQ
+Nginx
+AngularJS (1.x)
+
 This Project is designed in 3-tier architecture which consistes of Presentation Layer(UI), Business Logic Layer, Database Layer (Mongo DB and Mysql DB) and included caching layer for the cart service, for caching, we have used Redis in memory store for it.
 
 
@@ -62,3 +75,22 @@ This Project is designed in 3-tier architecture which consistes of Presentation 
 ## Conclusion:
 
 In conclusion, this project highlights the successful implementation of a Microservice application hosted on an AWS EKS Cluster, following cloud-native principles. By leveraging AWS's robust services and integrating best practices, the architecture delivers high scalability, resilience, and security while remaining cost-efficient. This hands-on experience reinforces the practical knowledge of designing, deploying, and managing cloud-based applications, making it a significant step forward in mastering modern application hosting solutions.
+
+
+## Codebase for the Microservices
+I have used the Stan's Robot Shop developed by IAM. It is a sample microservice application you can use as a sandbox to test and learn containerised application orchestration and monitoring techniques. It is not intended to be a comprehensive reference example of how to write a microservices application, although you will better understand some of those concepts by playing with Stan's Robot Shop. To be clear, the error handling is patchy and there is not any security built into the application.
+
+This sample microservice application has been built using these technologies:
+
+NodeJS (Express)
+Java (Spring Boot)
+Python (Flask)
+Golang
+PHP (Apache)
+MongoDB
+Redis
+MySQL (Maxmind data)
+RabbitMQ
+Nginx
+AngularJS (1.x)
+
