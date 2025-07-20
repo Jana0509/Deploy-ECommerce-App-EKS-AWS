@@ -16,12 +16,14 @@ AngularJS (1.x)
 
 This Project is designed in 3-tier architecture which consistes of Presentation Layer(UI), Business Logic Layer, Database Layer (Mongo DB and Mysql DB) and included caching layer for the cart service, for caching, we have used Redis in memory store for it.
 
+----------
 
 ### Architecture
 
 ![eks Microservices](https://github.com/user-attachments/assets/0500a392-23f5-43fb-92ff-8af7847a563e)
 
 
+------------
 ### Project Highlights:
 1. Containerization:
    * Containerized the 2048 application using docker to ensure consistent runtime environment
@@ -48,6 +50,7 @@ This Project is designed in 3-tier architecture which consistes of Presentation 
    * Created the Virtual network space from scratch to create the eks cluster in secure environment
 
 
+-----------
 ### Understanding EKS Cluster:
 * Control plane : Managed by AWS, including the components such as API Server, etcd, cloud controller manager, scheduler.
 * Woker Nodes: It is handled by us for creating the node group such as EC2 instances or serverless compute as fargate to run the application.
@@ -55,11 +58,15 @@ This Project is designed in 3-tier architecture which consistes of Presentation 
 * Networking: Configured the secure communication between control plane and worker nodes, Secure isolation is created using VPC
 * Monitoring and Logging : Integrated cloudwatch for the realtime performance and health tracking
 
+---------
+
 ### Resources created for the application:
 1. Deployment : It contains the pod configuration such as app docker image and replica set configuration
 2. Service : It is used for exposing the apps to external world and perform service discovery using labels and selectors
 3. Ingress Resource : It contains the configuration for routing the external traffic to service which inturns reaches the containerized app running in pod
 4. ALB Ingress Controller : This controller is deployed in control plane which will watch all the ingress resources and will configure the Load balancer
+
+----------
 
 ### Process Followed to Deploy to EKS
 1. Dockerized all the services.
@@ -69,11 +76,13 @@ This Project is designed in 3-tier architecture which consistes of Presentation 
 5. Created the Ingress resource and Ingress ALB
 6. Create and configure IAM OIDC provider for creating the communication between the pods and AWS Resources[Create Integration between k8 service and AWS IAM roles]
 
+--------
 
 ## Conclusion:
 
 In conclusion, this project highlights the successful implementation of a Microservice application hosted on an AWS EKS Cluster, following cloud-native principles. By leveraging AWS's robust services and integrating best practices, the architecture delivers high scalability, resilience, and security while remaining cost-efficient. This hands-on experience reinforces the practical knowledge of designing, deploying, and managing cloud-based applications, making it a significant step forward in mastering modern application hosting solutions.
 
+-------
 
 ## Codebase for the Microservices
 I have used the Stan's Robot Shop developed by IAM. It is a sample microservice application you can use as a sandbox to test and learn containerised application orchestration and monitoring techniques. It is not intended to be a comprehensive reference example of how to write a microservices application, although you will better understand some of those concepts by playing with Stan's Robot Shop. To be clear, the error handling is patchy and there is not any security built into the application.
