@@ -2,18 +2,16 @@
 Build and Deploy Highly Available, Scalable and Resilient 3-tier microservices solution in Elastic Kubernetes Service
 
 ### Introduction:
-This Project demonstrates deploying Highly Available, Scalable and Resilient Application in AWS EKS Cluster. This Application consists of 9 Microservices such as User Service(Registration, Login), Shipping Service, Rating Service, Catalogue Service, Cart, Dispatch and Payment Service. All the Microservices are written in different Programming languages such as 
-
-NodeJS (Express)
-Java (Spring Boot)
-Python (Flask)
-Golang
-PHP (Apache)
-MongoDB
-Redis
-MySQL (Maxmind data)
-RabbitMQ
-Nginx
+This Project demonstrates deploying Highly Available, Scalable and Resilient Application in AWS EKS Cluster. This Application consists of 9 Microservices such as User Service(Registration, Login), Shipping Service, Rating Service, Catalogue Service, Cart, Dispatch and Payment Service. All the Microservices are written in different Programming languages such as NodeJS (Express),
+Java (Spring Boot),
+Python (Flask),
+Golang,
+PHP (Apache),
+MongoDB,
+Redis,
+MySQL (Maxmind data),
+RabbitMQ,
+Nginx,
 AngularJS (1.x)
 
 This Project is designed in 3-tier architecture which consistes of Presentation Layer(UI), Business Logic Layer, Database Layer (Mongo DB and Mysql DB) and included caching layer for the cart service, for caching, we have used Redis in memory store for it.
